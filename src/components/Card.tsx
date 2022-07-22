@@ -6,7 +6,7 @@ type pokemonCardProps = pokemonListProps & {
 };
 
 type abilityProps = {
-  ability: [pokemonListProps];
+  ability: pokemonListProps;
 };
 
 const Card = ({ name, id, url }: pokemonCardProps) => {
